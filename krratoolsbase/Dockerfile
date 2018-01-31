@@ -46,7 +46,7 @@ RUN wget -q https://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_MAJOR_VERSION
 
 ADD runtomcat.sh /usr/local/bin/
 
-RUN chmod -v +x /usr/local/bin/rocket.sh
+RUN chmod +x /usr/local/bin/runtomcat.sh
 
 EXPOSE $PORT
 
