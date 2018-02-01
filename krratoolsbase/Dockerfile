@@ -50,4 +50,4 @@ RUN chmod +x /usr/local/bin/runtomcat.sh
 
 EXPOSE $PORT
 
-CMD CMD ["/bin/bash", "runtomcat.sh"]
+CMD ["/bin/bash", "runtomcat.sh"]
