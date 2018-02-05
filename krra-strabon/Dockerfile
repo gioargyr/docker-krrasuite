@@ -56,6 +56,5 @@ RUN hg clone http://hg.strabon.di.uoa.gr/Strabon/ \
 
 RUN cp /Strabon/endpoint/target/strabon-endpoint-3.3.2-SNAPSHOT.war /tomcat/webapps/Strabon.war \
  && rm -rf /Strabon
-
  
 CMD enable_remote.sh && su - postgres -c "/usr/lib/postgresql/9.4/bin/postgres -D /var/lib/postgresql/9.4/main -c config_file=/etc/postgresql/9.4/main/postgresql.conf"
