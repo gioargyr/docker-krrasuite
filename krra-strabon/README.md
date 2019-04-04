@@ -10,5 +10,5 @@ It is absolutely necessary to do it and run (while being inside the container) t
 
 **Attention**  When the container is up and running, it provides only a postgres(+postgis) DBMS. In order to make Strabon available,
 you should start container's tomcat as described in the previous instruction.
-<br />
+<br /> <br />
 NOW, Strabon is available in you local machine. Open a browser and type `localhost:9091/Strabon`
