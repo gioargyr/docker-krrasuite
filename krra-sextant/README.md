@@ -5,7 +5,7 @@ Feel free to select whatever name you want for the container-name. <br />
 Feel free to select whatever port you want for mapping as long as it is available. <br />
 In case you want to have files available inside the sextant-docker-container, store them in /<some_local_dir> in your machine. <br />
 Sextant is available in you local machine. Open a browser and type `localhost:9090/Sextant_v2.0`
-* `[sudo] docker exec -it sextant-container-name /bin/bash <br />`
+* `[sudo] docker exec -it sextant-container-name /bin/bash` <br />
 In case you want to be inside the container and change configuration or do anything else.
 
 ## Sextant Configuration
