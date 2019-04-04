@@ -1,6 +1,6 @@
 ## Use Sextant tool
 * `[sudo] docker run --name sextant_container_name -v /<some_local_dir>:/inout -p 9090:8080 gioargyr/krra-sextant:tool` <br />
-Now a docker-container is created based on the docker-image gioargyr/krra-sextant:tool.
+Now a docker-container is created based on the docker-image gioargyr/krra-sextant:tool. <br />
 Feel free to select whatever name you want for the container-name. <br />
 Feel free to select whatever port you want for mapping. As long as it is available. <br />
 In case you want to have files available inside the sextant-docker-container, store them in /<some_local_dir> in your machine. <br />
