@@ -1,4 +1,4 @@
-## Use Geotriples
+## Use GeoTriples
 * `[sudo] docker run --name geotriples-container-name -v /<some_local_dir>:/inout gioargyr/krra-geotriples:tool` <br />
 Now a docker-container is created based on the docker-image gioargyr/krra-geotriples:tool.
 Feel free to select whatever name you want for the container-name.<br />
