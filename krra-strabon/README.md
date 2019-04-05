@@ -1,4 +1,4 @@
-## Use Strabon tool
+## Use Strabon
 * `[sudo] docker run --name strabon_container_name -v /<some_local_dir>:/inout -p 9091:8080 gioargyr/krra-strabon:tool` <br />
 Now a docker-container is created based on the docker-image gioargyr/krra-strabon:tool. <br />
 Feel free to select whatever name you want for the container-name. <br />
